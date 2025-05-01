@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.App-heading {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  display: inline-block;
+  color: #fff;
+  background-color: blueviolet;
+  padding: 5px 20px;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+.App-content {
+  position: absolute;
+  top: 10%;
+  border: 2px solid red;
+  width: 99%;
+  height: 100%;
+}
+.first {
+  padding: 40px !important;
+}
